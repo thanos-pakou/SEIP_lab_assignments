@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <!-- Main project's POM information -->
+  <groupId>gr.aueb.dmst</groupId>
+  <artifactId>seip2019</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>mavenAssignment</name>
+  <description>This project's source code reads a file with students’ grades and generates its histogram. It is build with Maven automation tool.</description>
+  
+	<!-- Refers to the modules/children Maven projects -->
+  <modules>
+  	<module>gradeshistogram</module>
+  	<module>codeAnalyser</module>
+  	<module>unitTesting</module>
+  </modules>
+  
+    <!-- Module's POM build information  -->
+  <build>
+    <plugins>
+    	<plugin>
+   			<groupId>org.codehaus.mojo</groupId>
+   			<artifactId>cobertura-maven-plugin</artifactId>
+   			<version>2.7</version>
+   			<configuration>
+       			<formats>
+           			<format>html</format>
+           			<format>xml</format>
+       			</formats>
+       			<reportSets>
+           			<reportSet>
+               			<reports>
+                   			<report>cobertura</report>
+               			</reports>
+           			</reportSet>
+       			</reportSets>
+   			</configuration>     
+		</plugin>
+    </plugins>
+  </build>
+</project>

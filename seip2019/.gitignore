@@ -1,0 +1,10 @@
+# Maven Parent target directory #
+#################################
+/target/
+
+# IDE settings and metadata #
+#############################
+.classpath
+.project
+/.settings/
+

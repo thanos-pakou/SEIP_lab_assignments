@@ -1,0 +1,17 @@
+# Maven Child target directory #
+################################
+/target/
+
+# IDE settings and metadata #
+#############################
+.classpath
+.project
+/.settings/
+
+# Compiled Java files #
+#######################
+*.class
+
+# Test files #
+##############
+/src/main/resources/
