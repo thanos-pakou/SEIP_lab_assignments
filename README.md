@@ -1,6 +1,6 @@
 # SEIP_lab_assignments_2019
 
-[![Build Status](https://travis-ci.com/thanos-pakou/SEIP_lab_assignments_2019.svg?token=1hSEJzpEKqDhyX7UkpNW&branch=master)](https://travis-ci.com/thanos-pakou/SEIP_lab_assignments_2019)
+[![Build Status](https://travis-ci.com/thanos-pakou/SEIP_lab_assignments.svg?token=1hSEJzpEKqDhyX7UkpNW&branch=master)](https://travis-ci.com/thanos-pakou/SEIP_lab_assignments)
 [![codecov](https://codecov.io/gh/thanos-pakou/SEIP_lab_assignments_2019/branch/master/graph/badge.svg?token=wG7JpXfhev)](https://codecov.io/gh/thanos-pakou/SEIP_lab_assignments_2019)
 
 ## Description
