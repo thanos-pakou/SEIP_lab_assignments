@@ -5,7 +5,7 @@
 
 ## Description
 
-This is a private repository for submitting lab assignments for Software Engineer in Practice. 
+This is a public repository for submitting lab assignments for Software Engineer in Practice. 
 
 The directory [seip2019](seip2019) contains all the standalone projects.
 
